@@ -1,0 +1,54 @@
+<div style="width:85%;">
+    <div style="background-color: #f1f1f1;color: #716f70;font-size: 20px;padding:2px;">
+        <div style="margin-left: 20px;"><a href={ecwd_event_link}>{ecwd_event_title}</a></div>
+    </div>
+    <div style="padding:20px 0">
+        <!-- start_ecwd_image -->
+        <div style="display:inline-block;vertical-align: top;">{ecwd_image}</div>
+        <!-- end_ecwd_image -->
+        <div style="display:inline-block;vertical-align: top;max-width: 60%;">
+            <span style="font-style: italic;color: #424242;min-height: 18px;padding-left: 33px;
+                  font-size: 16px;line-height: 1;margin-bottom: 5px;display: inline-block;width:100%;
+                  background:url( {ECWD_SUBSCRIBE_URL}images/date.png) no-repeat left top;">
+                {ecwd_event_start_date} - {ecwd_event_end_date}
+            </span>
+            <!-- start_ecwd_event_url -->
+            <span class="ecwd_event_url" style="font-style: italic;color: #424242;min-height: 18px;padding-left: 33px;
+                  font-size: 16px;line-height: 1;margin-bottom: 5px;display: inline-block;width:100%;
+                  background:url({ECWD_SUBSCRIBE_URL}images/url-icon.png) no-repeat left top;">
+                {ecwd_event_url}
+            </span>
+            <!-- end_ecwd_event_url -->
+            <!-- start_ecwd_event_organizers -->
+            <span class="ecwd_event_organizers" style="font-style: italic;color: #424242;min-height: 18px;padding-left: 33px;
+                  font-size: 16px;line-height: 1;margin-bottom: 5px;display: inline-block;width:100%;
+                  background:url({ECWD_SUBSCRIBE_URL}images/organizer.png) no-repeat left top;">
+                {ecwd_event_organizers}
+            </span>
+            <!-- end_ecwd_event_organizers -->
+            <!-- start_ecwd_event_location -->
+            <span class="ecwd_event_location" style="font-style: italic;color: #424242;min-height: 18px;padding-left: 33px;
+                  font-size: 16px;line-height: 1;margin-bottom: 5px;display: inline-block;width:100%;
+                  background:url({ECWD_SUBSCRIBE_URL}images/location.png) no-repeat left top;">
+                {ecwd_event_location}
+            </span>
+            <!-- end_ecwd_event_location -->
+            <!-- start_ecwd_event_video_url -->
+            <span class="ecwd_event_video_url" style="font-style: italic;color: #424242;min-height: 18px;padding-left: 33px;
+                  font-size: 16px;line-height: 1;margin-bottom: 5px;display: inline-block;width:100%;
+                  background:url({ECWD_SUBSCRIBE_URL}images/url-icon.png) no-repeat left top;">
+                {ecwd_event_video_url}
+            </span>
+            <!-- end_ecwd_event_video_url -->
+        </div>
+    </div>
+    <!-- start_ecwd_event_content -->
+    <div style="width:100%;color: #676767;min-height: 18px;font-size: 16px;display: inline-block;
+         background-color: #f1f1f1;padding:3px 0;">
+        {ecwd_event_content}
+    </div>
+    <!-- end_ecwd_event_content -->
+    <div style="padding-top:5px;">
+        <div style="display:inline-block;float: left;">{ecwd_unsubscribe_link}</div>
+    </div>
+</div>
